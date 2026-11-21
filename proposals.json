@@ -1,0 +1,3448 @@
+{
+  "report_type": "Bellhaven CRM review-only reconciliation proposals",
+  "source_files": [
+    "bellhaven_locations.csv",
+    "crm_accounts.json"
+  ],
+  "bellhaven_parent_account_id": "0015QAPLGS3FVYEEEM",
+  "website_location_count": 34,
+  "crm_account_count": 121,
+  "summary": {
+    "CONFIDENT_MATCH": 16,
+    "NEEDS_FIX": 14,
+    "CREATE_NEW": 4,
+    "DUPLICATE": 1,
+    "NO_LONGER_LISTED": 3
+  },
+  "chow_proposals": 2,
+  "proposals": [
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Maplewood",
+        "street_address": "210 Orchard Lane",
+        "city": "Maplewood",
+        "state": "OH",
+        "zip_code": "44280",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001L3LGR6W69J8DYYV",
+        "name": "Bellhaven of Maplewood",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "210 Orchard Ln",
+        "billing_city": "Maplewood",
+        "billing_state": "OH",
+        "billing_zip": "44280",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(614) 250-9447",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Maplewood",
+            "crm": "Bellhaven of Maplewood",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Maplewood",
+            "crm": "Maplewood",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44280",
+            "crm": "44280",
+            "match": true
+          },
+          "street_address": {
+            "website": "210 Orchard Lane",
+            "crm": "210 Orchard Ln",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of New Carlisle",
+        "street_address": "875 Elm Street",
+        "city": "New Carlisle",
+        "state": "OH",
+        "zip_code": "45344",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001AQGPZ5G5VRES536",
+        "name": "Bellhaven of New Carlisle",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "875 Elm St",
+        "billing_city": "New Carlisle",
+        "billing_state": "OH",
+        "billing_zip": "45344",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(614) 900-2177",
+        "lifetime_revenue": 156000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of New Carlisle",
+            "crm": "Bellhaven of New Carlisle",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "New Carlisle",
+            "crm": "New Carlisle",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "45344",
+            "crm": "45344",
+            "match": true
+          },
+          "street_address": {
+            "website": "875 Elm Street",
+            "crm": "875 Elm St",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Wooster",
+        "street_address": "2301 Cleveland Road",
+        "city": "Wooster",
+        "state": "OH",
+        "zip_code": "44691",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001W5G121A7SMRP58M",
+        "name": "Bellhaven of Wooster",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "2301 Cleveland Rd",
+        "billing_city": "Wooster",
+        "billing_state": "OH",
+        "billing_zip": "44691",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(517) 712-7557",
+        "lifetime_revenue": 25000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Wooster",
+            "crm": "Bellhaven of Wooster",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Wooster",
+            "crm": "Wooster",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44691",
+            "crm": "44691",
+            "match": true
+          },
+          "street_address": {
+            "website": "2301 Cleveland Road",
+            "crm": "2301 Cleveland Rd",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven Terrace of Akron",
+        "street_address": "55 Ridgewood Avenue",
+        "city": "Akron",
+        "state": "OH",
+        "zip_code": "44313",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "0019Y4J61ZBG4R00CD",
+        "name": "Bellhaven Terrace of Akron",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "55 Ridgewood Ave",
+        "billing_city": "Akron",
+        "billing_state": "OH",
+        "billing_zip": "44313",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(260) 899-4605",
+        "lifetime_revenue": 101000,
+        "outstanding_ar": 9000,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Terrace of Akron",
+            "crm": "Bellhaven Terrace of Akron",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Akron",
+            "crm": "Akron",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44313",
+            "crm": "44313",
+            "match": true
+          },
+          "street_address": {
+            "website": "55 Ridgewood Avenue",
+            "crm": "55 Ridgewood Ave",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Saline",
+        "street_address": "980 W Michigan Ave",
+        "city": "Saline",
+        "state": "MI",
+        "zip_code": "48176",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001MVVAPY6U5TVYRC4",
+        "name": "Bellhaven of Saline",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "980 West Michigan Avenue",
+        "billing_city": "Saline",
+        "billing_state": "MI",
+        "billing_zip": "48176",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(614) 868-2766",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Saline",
+            "crm": "Bellhaven of Saline",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Saline",
+            "crm": "Saline",
+            "match": true
+          },
+          "state": {
+            "website": "MI",
+            "crm": "MI",
+            "match": true
+          },
+          "zip_code": {
+            "website": "48176",
+            "crm": "48176",
+            "match": true
+          },
+          "street_address": {
+            "website": "980 W Michigan Ave",
+            "crm": "980 West Michigan Avenue",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Goshen",
+        "street_address": "1610 College Ave",
+        "city": "Goshen",
+        "state": "IN",
+        "zip_code": "46526",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001JQER1RMYKNRLNME",
+        "name": "Bellhaven of Goshen",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1610 College Avenue",
+        "billing_city": "Goshen",
+        "billing_state": "IN",
+        "billing_zip": "46526",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(517) 409-8156",
+        "lifetime_revenue": 121000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Goshen",
+            "crm": "Bellhaven of Goshen",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Goshen",
+            "crm": "Goshen",
+            "match": true
+          },
+          "state": {
+            "website": "IN",
+            "crm": "IN",
+            "match": true
+          },
+          "zip_code": {
+            "website": "46526",
+            "crm": "46526",
+            "match": true
+          },
+          "street_address": {
+            "website": "1610 College Ave",
+            "crm": "1610 College Avenue",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Meadville",
+        "street_address": "341 Chestnut St",
+        "city": "Meadville",
+        "state": "PA",
+        "zip_code": "16335",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001KC1NG7EZDEKKA3T",
+        "name": "Bellhaven of Meadville",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "341 Chestnut Street",
+        "billing_city": "Meadville",
+        "billing_state": "PA",
+        "billing_zip": "16335",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(419) 848-5389",
+        "lifetime_revenue": 87000,
+        "outstanding_ar": 1000,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Meadville",
+            "crm": "Bellhaven of Meadville",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Meadville",
+            "crm": "Meadville",
+            "match": true
+          },
+          "state": {
+            "website": "PA",
+            "crm": "PA",
+            "match": true
+          },
+          "zip_code": {
+            "website": "16335",
+            "crm": "16335",
+            "match": true
+          },
+          "street_address": {
+            "website": "341 Chestnut St",
+            "crm": "341 Chestnut Street",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Defiance",
+        "street_address": "700 Carpenter Rd",
+        "city": "Defiance",
+        "state": "OH",
+        "zip_code": "43512",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001R4PXTUD9R6FNN8V",
+        "name": "Bellhaven of Defiance",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "700 Carpenter Road",
+        "billing_city": "Defiance",
+        "billing_state": "OH",
+        "billing_zip": "43512",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(231) 238-4862",
+        "lifetime_revenue": 66000,
+        "outstanding_ar": 9500,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Defiance",
+            "crm": "Bellhaven of Defiance",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Defiance",
+            "crm": "Defiance",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "43512",
+            "crm": "43512",
+            "match": true
+          },
+          "street_address": {
+            "website": "700 Carpenter Rd",
+            "crm": "700 Carpenter Road",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven Woods of Toledo",
+        "street_address": "4850 NW Sylvania Ave",
+        "city": "Toledo",
+        "state": "OH",
+        "zip_code": "43623",
+        "care_offerings": "Memory Support"
+      },
+      "crm_account": {
+        "account_id": "0014DHACE6WQU3RMM5",
+        "name": "Bellhaven Woods of Toledo",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "4850 Northwest Sylvania Avenue",
+        "billing_city": "Toledo",
+        "billing_state": "OH",
+        "billing_zip": "43623",
+        "care_type": "Memory Care",
+        "status": "Active",
+        "phone": "(734) 388-8242",
+        "lifetime_revenue": 54000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Woods of Toledo",
+            "crm": "Bellhaven Woods of Toledo",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Toledo",
+            "crm": "Toledo",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "43623",
+            "crm": "43623",
+            "match": true
+          },
+          "street_address": {
+            "website": "4850 NW Sylvania Ave",
+            "crm": "4850 Northwest Sylvania Avenue",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Memory Support",
+            "crm": "Memory Care",
+            "equivalent_website_types": [
+              "Memory Care"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Marion",
+        "street_address": "199 Barks Rd W",
+        "city": "Marion",
+        "state": "OH",
+        "zip_code": "43302",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "0015L38R1Z5947ZZP7",
+        "name": "Bellhaven of Marion",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "199 Barks Road West",
+        "billing_city": "Marion",
+        "billing_state": "OH",
+        "billing_zip": "43302",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(330) 314-3109",
+        "lifetime_revenue": 87000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Marion",
+            "crm": "Bellhaven of Marion",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Marion",
+            "crm": "Marion",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "43302",
+            "crm": "43302",
+            "match": true
+          },
+          "street_address": {
+            "website": "199 Barks Rd W",
+            "crm": "199 Barks Road West",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Kalamazoo",
+        "street_address": "3222 Gull Rd",
+        "city": "Kalamazoo",
+        "state": "MI",
+        "zip_code": "49048",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001NSHWKQD0YJLPQ20",
+        "name": "Bellhaven of Kalamazoo",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "3222 Gull Road",
+        "billing_city": "Kalamazoo",
+        "billing_state": "MI",
+        "billing_zip": "49048",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(231) 460-1964",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Kalamazoo",
+            "crm": "Bellhaven of Kalamazoo",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Kalamazoo",
+            "crm": "Kalamazoo",
+            "match": true
+          },
+          "state": {
+            "website": "MI",
+            "crm": "MI",
+            "match": true
+          },
+          "zip_code": {
+            "website": "49048",
+            "crm": "49048",
+            "match": true
+          },
+          "street_address": {
+            "website": "3222 Gull Rd",
+            "crm": "3222 Gull Road",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven Court of Altoona",
+        "street_address": "1125 Logan Blvd",
+        "city": "Altoona",
+        "state": "PA",
+        "zip_code": "16602",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "0011D2P3CWSHMF81C8",
+        "name": "Bellhaven Court of Altoona",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1125 Logan Boulevard",
+        "billing_city": "Altoona",
+        "billing_state": "PA",
+        "billing_zip": "16602",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(517) 573-9493",
+        "lifetime_revenue": 61000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Court of Altoona",
+            "crm": "Bellhaven Court of Altoona",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Altoona",
+            "crm": "Altoona",
+            "match": true
+          },
+          "state": {
+            "website": "PA",
+            "crm": "PA",
+            "match": true
+          },
+          "zip_code": {
+            "website": "16602",
+            "crm": "16602",
+            "match": true
+          },
+          "street_address": {
+            "website": "1125 Logan Blvd",
+            "crm": "1125 Logan Boulevard",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven Rehabilitation & Nursing of Grove City",
+        "street_address": "3985 Broadway",
+        "city": "Grove City",
+        "state": "OH",
+        "zip_code": "43123",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001TZCSTBZFM6K5BGN",
+        "name": "Bellhaven Rehab and Nursing of Grove City",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "3985 Broadway",
+        "billing_city": "Grove City",
+        "billing_state": "OH",
+        "billing_zip": "43123",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(614) 555-7729",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Rehabilitation & Nursing of Grove City",
+            "crm": "Bellhaven Rehab and Nursing of Grove City",
+            "normalized_match": false,
+            "similarity": 0.901
+          },
+          "city": {
+            "website": "Grove City",
+            "crm": "Grove City",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "43123",
+            "crm": "43123",
+            "match": true
+          },
+          "street_address": {
+            "website": "3985 Broadway",
+            "crm": "3985 Broadway",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 111.03
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001TZCSTBZFM6K5BGN",
+          "field": "name",
+          "from": "Bellhaven Rehab and Nursing of Grove City",
+          "to": "Bellhaven Rehabilitation & Nursing of Grove City"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven at Sycamore Ridge",
+        "street_address": "7420 Sycamore Ridge Dr",
+        "city": "Miamisburg",
+        "state": "OH",
+        "zip_code": "45342",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "00191H7JR16471SZ34",
+        "name": "Bellhaven of Sycamore Ridge",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "7420 Sycamore Ridge Dr",
+        "billing_city": "Miamisburg",
+        "billing_state": "OH",
+        "billing_zip": "45342",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(419) 982-7764",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven at Sycamore Ridge",
+            "crm": "Bellhaven of Sycamore Ridge",
+            "normalized_match": false,
+            "similarity": 0.926
+          },
+          "city": {
+            "website": "Miamisburg",
+            "crm": "Miamisburg",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "45342",
+            "crm": "45342",
+            "match": true
+          },
+          "street_address": {
+            "website": "7420 Sycamore Ridge Dr",
+            "crm": "7420 Sycamore Ridge Dr",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 111.78
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "00191H7JR16471SZ34",
+          "field": "name",
+          "from": "Bellhaven of Sycamore Ridge",
+          "to": "Bellhaven at Sycamore Ridge"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "The Arbors at Bellhaven - Dayton",
+        "street_address": "2210 Salem Ave",
+        "city": "Dayton",
+        "state": "OH",
+        "zip_code": "45406",
+        "care_offerings": "Memory Support"
+      },
+      "crm_account": {
+        "account_id": "0010KJFP601YNTZVDA",
+        "name": "Arbors at Bellhaven Dayton",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "2210 Salem Ave",
+        "billing_city": "Dayton",
+        "billing_state": "OH",
+        "billing_zip": "45406",
+        "care_type": "Memory Care",
+        "status": "Active",
+        "phone": "(216) 659-9837",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "The Arbors at Bellhaven - Dayton",
+            "crm": "Arbors at Bellhaven Dayton",
+            "normalized_match": false,
+            "similarity": 0.929
+          },
+          "city": {
+            "website": "Dayton",
+            "crm": "Dayton",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "45406",
+            "crm": "45406",
+            "match": true
+          },
+          "street_address": {
+            "website": "2210 Salem Ave",
+            "crm": "2210 Salem Ave",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Memory Support",
+            "crm": "Memory Care",
+            "equivalent_website_types": [
+              "Memory Care"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 111.87
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "0010KJFP601YNTZVDA",
+          "field": "name",
+          "from": "Arbors at Bellhaven Dayton",
+          "to": "The Arbors at Bellhaven - Dayton"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven Healthcare Centre of Ashland",
+        "street_address": "1631 Claremont Ave",
+        "city": "Ashland",
+        "state": "OH",
+        "zip_code": "44805",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001RJ0D7Z5MAZN5HX5",
+        "name": "Bellhaven Health Care Center of Ashland",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1631 Claremont Ave",
+        "billing_city": "Ashland",
+        "billing_state": "OH",
+        "billing_zip": "44805",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(734) 319-7813",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Healthcare Centre of Ashland",
+            "crm": "Bellhaven Health Care Center of Ashland",
+            "normalized_match": false,
+            "similarity": 0.961
+          },
+          "city": {
+            "website": "Ashland",
+            "crm": "Ashland",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44805",
+            "crm": "44805",
+            "match": true
+          },
+          "street_address": {
+            "website": "1631 Claremont Ave",
+            "crm": "1631 Claremont Ave",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 112.83
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001RJ0D7Z5MAZN5HX5",
+          "field": "name",
+          "from": "Bellhaven Health Care Center of Ashland",
+          "to": "Bellhaven Healthcare Centre of Ashland"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Port Clinton",
+        "street_address": "1420 Harbor Point Dr",
+        "city": "Port Clinton",
+        "state": "OH",
+        "zip_code": "43452",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001UELXDAKFRKB8932",
+        "name": "Bellhaven of Port Clinton",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1420 Harbor Point Dr",
+        "billing_city": "Port Clinton",
+        "billing_state": "OH",
+        "billing_zip": "43452",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(614) 512-8712",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Port Clinton",
+            "crm": "Bellhaven of Port Clinton",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Port Clinton",
+            "crm": "Port Clinton",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "43452",
+            "crm": "43452",
+            "match": true
+          },
+          "street_address": {
+            "website": "1420 Harbor Point Dr",
+            "crm": "1420 Harbor Point Dr",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven Shores of Erie",
+        "street_address": "4930 W Lake Rd",
+        "city": "Erie",
+        "state": "PA",
+        "zip_code": "16505",
+        "care_offerings": "Assisted Living; Memory Support"
+      },
+      "crm_account": {
+        "account_id": "001CVBBCSDM7YHN220",
+        "name": "Bellhaven Shores of Erie",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "4930 W Lake Rd",
+        "billing_city": "Erie",
+        "billing_state": "PA",
+        "billing_zip": "16505",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(419) 495-1741",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Shores of Erie",
+            "crm": "Bellhaven Shores of Erie",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Erie",
+            "crm": "Erie",
+            "match": true
+          },
+          "state": {
+            "website": "PA",
+            "crm": "PA",
+            "match": true
+          },
+          "zip_code": {
+            "website": "16505",
+            "crm": "16505",
+            "match": true
+          },
+          "street_address": {
+            "website": "4930 W Lake Rd",
+            "crm": "4930 W Lake Rd",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living; Memory Support",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living",
+              "Memory Care"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Kettering",
+        "street_address": "3313 Wilmington Pike",
+        "city": "Kettering",
+        "state": "OH",
+        "zip_code": "45429",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": null,
+      "candidate_crm_accounts": [
+        {
+          "account_id": "001WR41PYNWXCAE2X4",
+          "name": "Kettering Care Centre",
+          "parent_id": "001FJZYHR7MLFMNPLL",
+          "parent_name": "Harborview Care Group (Parent Account)",
+          "billing_street": "3313 Wilmington Pike",
+          "billing_city": "Kettering",
+          "billing_state": "OH",
+          "billing_zip": "45429",
+          "care_type": "Skilled Nursing",
+          "status": "Active",
+          "phone": "(419) 600-2603",
+          "lifetime_revenue": 0,
+          "outstanding_ar": 0,
+          "chow_current_account": "",
+          "duplicate_of_account": "",
+          "note": "",
+          "created_by_candidate": false,
+          "updated_at": "2026-11-10 17:23:59Z"
+        },
+        {
+          "account_id": "001B7XZAA3AFALS9GP",
+          "name": "Kettering Senior Campus",
+          "parent_id": "001FWSQ30SFW6S7604",
+          "parent_name": "Cedar Trail Communities (Parent Account)",
+          "billing_street": "3313 Wilmington Pk",
+          "billing_city": "Kettering",
+          "billing_state": "OH",
+          "billing_zip": "45429",
+          "care_type": "Skilled Nursing",
+          "status": "Active",
+          "phone": "(517) 646-8751",
+          "lifetime_revenue": 0,
+          "outstanding_ar": 0,
+          "chow_current_account": "",
+          "duplicate_of_account": "",
+          "note": "",
+          "created_by_candidate": false,
+          "updated_at": "2026-11-10 17:23:59Z"
+        },
+        {
+          "account_id": "0016KTS1UAWBRXS09J",
+          "name": "Kettering Nursing & Rehabilitation",
+          "parent_id": "",
+          "parent_name": "",
+          "billing_street": "3313 Wilmington Pike",
+          "billing_city": "Kettering",
+          "billing_state": "OH",
+          "billing_zip": "45429",
+          "care_type": "Skilled Nursing",
+          "status": "Active",
+          "phone": "(216) 345-3441",
+          "lifetime_revenue": 0,
+          "outstanding_ar": 0,
+          "chow_current_account": "",
+          "duplicate_of_account": "",
+          "note": "",
+          "created_by_candidate": false,
+          "updated_at": "2026-11-10 17:23:59Z"
+        }
+      ],
+      "evidence": {
+        "reason": "Multiple plausible accounts at the same location; ownership cannot be determined safely.",
+        "candidates": [
+          {
+            "account_id": "001WR41PYNWXCAE2X4",
+            "score": 92.57,
+            "details": {
+              "name": {
+                "website": "Bellhaven of Kettering",
+                "crm": "Kettering Care Centre",
+                "normalized_match": false,
+                "similarity": 0.419
+              },
+              "city": {
+                "website": "Kettering",
+                "crm": "Kettering",
+                "match": true
+              },
+              "state": {
+                "website": "OH",
+                "crm": "OH",
+                "match": true
+              },
+              "zip_code": {
+                "website": "45429",
+                "crm": "45429",
+                "match": true
+              },
+              "street_address": {
+                "website": "3313 Wilmington Pike",
+                "crm": "3313 Wilmington Pike",
+                "normalized_match": true,
+                "similarity": 1.0
+              },
+              "care_type": {
+                "website_offerings": "Short-Term Rehabilitation & Nursing",
+                "crm": "Skilled Nursing",
+                "equivalent_website_types": [
+                  "Skilled Nursing"
+                ],
+                "match": true
+              },
+              "parent_id": {
+                "expected": "0015QAPLGS3FVYEEEM",
+                "crm": "001FJZYHR7MLFMNPLL",
+                "match": false
+              }
+            }
+          },
+          {
+            "account_id": "001B7XZAA3AFALS9GP",
+            "score": 92.0,
+            "details": {
+              "name": {
+                "website": "Bellhaven of Kettering",
+                "crm": "Kettering Senior Campus",
+                "normalized_match": false,
+                "similarity": 0.4
+              },
+              "city": {
+                "website": "Kettering",
+                "crm": "Kettering",
+                "match": true
+              },
+              "state": {
+                "website": "OH",
+                "crm": "OH",
+                "match": true
+              },
+              "zip_code": {
+                "website": "45429",
+                "crm": "45429",
+                "match": true
+              },
+              "street_address": {
+                "website": "3313 Wilmington Pike",
+                "crm": "3313 Wilmington Pk",
+                "normalized_match": true,
+                "similarity": 1.0
+              },
+              "care_type": {
+                "website_offerings": "Short-Term Rehabilitation & Nursing",
+                "crm": "Skilled Nursing",
+                "equivalent_website_types": [
+                  "Skilled Nursing"
+                ],
+                "match": true
+              },
+              "parent_id": {
+                "expected": "0015QAPLGS3FVYEEEM",
+                "crm": "001FWSQ30SFW6S7604",
+                "match": false
+              }
+            }
+          },
+          {
+            "account_id": "0016KTS1UAWBRXS09J",
+            "score": 89.3,
+            "details": {
+              "name": {
+                "website": "Bellhaven of Kettering",
+                "crm": "Kettering Nursing & Rehabilitation",
+                "normalized_match": false,
+                "similarity": 0.31
+              },
+              "city": {
+                "website": "Kettering",
+                "crm": "Kettering",
+                "match": true
+              },
+              "state": {
+                "website": "OH",
+                "crm": "OH",
+                "match": true
+              },
+              "zip_code": {
+                "website": "45429",
+                "crm": "45429",
+                "match": true
+              },
+              "street_address": {
+                "website": "3313 Wilmington Pike",
+                "crm": "3313 Wilmington Pike",
+                "normalized_match": true,
+                "similarity": 1.0
+              },
+              "care_type": {
+                "website_offerings": "Short-Term Rehabilitation & Nursing",
+                "crm": "Skilled Nursing",
+                "equivalent_website_types": [
+                  "Skilled Nursing"
+                ],
+                "match": true
+              },
+              "parent_id": {
+                "expected": "0015QAPLGS3FVYEEEM",
+                "crm": "",
+                "match": false
+              }
+            }
+          }
+        ]
+      },
+      "issues": [
+        "AMBIGUOUS_MATCH_MANUAL_REVIEW"
+      ],
+      "proposed_changes": [
+        {
+          "action": "MANUAL_REVIEW",
+          "details": "Choose the correct existing account or confirm whether to create a new account; no CRM change is proposed yet."
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven Gardens of Monroe",
+        "street_address": "750 Stewart Rd",
+        "city": "Monroe",
+        "state": "MI",
+        "zip_code": "48162",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001U1750VLVJAGG1S5",
+        "name": "Bellhaven Gardens of Monroe",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "750 Stewart Rd",
+        "billing_city": "Monroe",
+        "billing_state": "MI",
+        "billing_zip": "48162",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(814) 291-2902",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Gardens of Monroe",
+            "crm": "Bellhaven Gardens of Monroe",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Monroe",
+            "crm": "Monroe",
+            "match": true
+          },
+          "state": {
+            "website": "MI",
+            "crm": "MI",
+            "match": true
+          },
+          "zip_code": {
+            "website": "48162",
+            "crm": "48162",
+            "match": true
+          },
+          "street_address": {
+            "website": "750 Stewart Rd",
+            "crm": "750 Stewart Rd",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Tiffin",
+        "street_address": "45 St Lawrence Dr",
+        "city": "Tiffin",
+        "state": "OH",
+        "zip_code": "44883",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001U6RW32TY0WSXZZB",
+        "name": "Bellhaven of Tiffin",
+        "parent_id": "001FWSQ30SFW6S7604",
+        "parent_name": "Cedar Trail Communities (Parent Account)",
+        "billing_street": "45 St Lawrence Dr",
+        "billing_city": "Tiffin",
+        "billing_state": "OH",
+        "billing_zip": "44883",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(614) 829-9278",
+        "lifetime_revenue": 84000,
+        "outstanding_ar": 12400,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Tiffin",
+            "crm": "Bellhaven of Tiffin",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Tiffin",
+            "crm": "Tiffin",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44883",
+            "crm": "44883",
+            "match": true
+          },
+          "street_address": {
+            "website": "45 St Lawrence Dr",
+            "crm": "45 St Lawrence Dr",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "001FWSQ30SFW6S7604",
+            "match": false
+          }
+        },
+        "candidate_score": 110.0
+      },
+      "issues": [
+        "WRONG_PARENT",
+        "CHOW"
+      ],
+      "proposed_changes": [
+        {
+          "action": "CREATE_ACCOUNT",
+          "new_account_placeholder": "NEW_BELLHAVEN_CHOW_021",
+          "values": {
+            "name": "Bellhaven of Tiffin",
+            "parent_id": "0015QAPLGS3FVYEEEM",
+            "parent_name": "Bellhaven Senior Living (Parent Account)",
+            "billing_street": "45 St Lawrence Dr",
+            "billing_city": "Tiffin",
+            "billing_state": "OH",
+            "billing_zip": "44883",
+            "care_type": "Skilled Nursing",
+            "status": "Active"
+          },
+          "care_type_review": null
+        },
+        {
+          "action": "UPDATE_FIELD_AFTER_CREATION",
+          "account_id": "001U6RW32TY0WSXZZB",
+          "field": "chow_current_account",
+          "from": "",
+          "to_placeholder": "NEW_BELLHAVEN_CHOW_021",
+          "details": "Resolve placeholder to newly created CRM account ID before any later execution. Do NOT change the old parent_id."
+        }
+      ],
+      "requires_review": true,
+      "chow": true
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Marietta",
+        "street_address": "805 Colegate Dr",
+        "city": "Marietta",
+        "state": "OH",
+        "zip_code": "45750",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001A34WFSUYHCRBLFT",
+        "name": "Bellhaven of Marietta",
+        "parent_id": "001FWSQ30SFW6S7604",
+        "parent_name": "Cedar Trail Communities (Parent Account)",
+        "billing_street": "805 Colegate Drive",
+        "billing_city": "Marietta",
+        "billing_state": "OH",
+        "billing_zip": "45750",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(419) 353-5019",
+        "lifetime_revenue": 51250,
+        "outstanding_ar": 3800,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Marietta",
+            "crm": "Bellhaven of Marietta",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Marietta",
+            "crm": "Marietta",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "45750",
+            "crm": "45750",
+            "match": true
+          },
+          "street_address": {
+            "website": "805 Colegate Dr",
+            "crm": "805 Colegate Drive",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "001FWSQ30SFW6S7604",
+            "match": false
+          }
+        },
+        "candidate_score": 110.0
+      },
+      "issues": [
+        "WRONG_PARENT",
+        "CHOW"
+      ],
+      "proposed_changes": [
+        {
+          "action": "CREATE_ACCOUNT",
+          "new_account_placeholder": "NEW_BELLHAVEN_CHOW_022",
+          "values": {
+            "name": "Bellhaven of Marietta",
+            "parent_id": "0015QAPLGS3FVYEEEM",
+            "parent_name": "Bellhaven Senior Living (Parent Account)",
+            "billing_street": "805 Colegate Dr",
+            "billing_city": "Marietta",
+            "billing_state": "OH",
+            "billing_zip": "45750",
+            "care_type": "Skilled Nursing",
+            "status": "Active"
+          },
+          "care_type_review": null
+        },
+        {
+          "action": "UPDATE_FIELD_AFTER_CREATION",
+          "account_id": "001A34WFSUYHCRBLFT",
+          "field": "chow_current_account",
+          "from": "",
+          "to_placeholder": "NEW_BELLHAVEN_CHOW_022",
+          "details": "Resolve placeholder to newly created CRM account ID before any later execution. Do NOT change the old parent_id."
+        }
+      ],
+      "requires_review": true,
+      "chow": true
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven Crossings of Lima",
+        "street_address": "3115 N Cole St",
+        "city": "Lima",
+        "state": "OH",
+        "zip_code": "45801",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001LGFPBJY4N9MB6KL",
+        "name": "Bellhaven Crossings of Lima",
+        "parent_id": "001FJZYHR7MLFMNPLL",
+        "parent_name": "Harborview Care Group (Parent Account)",
+        "billing_street": "3115 N Cole St",
+        "billing_city": "Lima",
+        "billing_state": "OH",
+        "billing_zip": "45801",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(734) 872-9575",
+        "lifetime_revenue": 47000,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Crossings of Lima",
+            "crm": "Bellhaven Crossings of Lima",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Lima",
+            "crm": "Lima",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "45801",
+            "crm": "45801",
+            "match": true
+          },
+          "street_address": {
+            "website": "3115 N Cole St",
+            "crm": "3115 N Cole St",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "001FJZYHR7MLFMNPLL",
+            "match": false
+          }
+        },
+        "candidate_score": 110.0
+      },
+      "issues": [
+        "WRONG_PARENT"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELDS",
+          "account_id": "001LGFPBJY4N9MB6KL",
+          "fields": {
+            "parent_id": {
+              "from": "001FJZYHR7MLFMNPLL",
+              "to": "0015QAPLGS3FVYEEEM"
+            },
+            "parent_name": {
+              "from": "Harborview Care Group (Parent Account)",
+              "to": "Bellhaven Senior Living (Parent Account)"
+            }
+          }
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Zanesville",
+        "street_address": "2680 Maple Ave",
+        "city": "Zanesville",
+        "state": "OH",
+        "zip_code": "43701",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001H1JMVZWP46D5VUF",
+        "name": "Cedar Trail of Zanesville",
+        "parent_id": "001FWSQ30SFW6S7604",
+        "parent_name": "Cedar Trail Communities (Parent Account)",
+        "billing_street": "2680 Maple Avenue",
+        "billing_city": "Zanesville",
+        "billing_state": "OH",
+        "billing_zip": "43701",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(517) 817-8191",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Zanesville",
+            "crm": "Cedar Trail of Zanesville",
+            "normalized_match": false,
+            "similarity": 0.667
+          },
+          "city": {
+            "website": "Zanesville",
+            "crm": "Zanesville",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "43701",
+            "crm": "43701",
+            "match": true
+          },
+          "street_address": {
+            "website": "2680 Maple Ave",
+            "crm": "2680 Maple Avenue",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "001FWSQ30SFW6S7604",
+            "match": false
+          }
+        },
+        "candidate_score": 100.01
+      },
+      "issues": [
+        "OUTDATED_NAME",
+        "WRONG_PARENT"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELDS",
+          "account_id": "001H1JMVZWP46D5VUF",
+          "fields": {
+            "parent_id": {
+              "from": "001FWSQ30SFW6S7604",
+              "to": "0015QAPLGS3FVYEEEM"
+            },
+            "parent_name": {
+              "from": "Cedar Trail Communities (Parent Account)",
+              "to": "Bellhaven Senior Living (Parent Account)"
+            }
+          }
+        },
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001H1JMVZWP46D5VUF",
+          "field": "name",
+          "from": "Cedar Trail of Zanesville",
+          "to": "Bellhaven of Zanesville"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Chagrin Falls",
+        "street_address": "150 River St",
+        "city": "Chagrin Falls",
+        "state": "OH",
+        "zip_code": "44022",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001RJU1X4NBWC1Q0G7",
+        "name": "Riverbend Manor Care Center",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "150 River St",
+        "billing_city": "Chagrin Falls",
+        "billing_state": "OH",
+        "billing_zip": "44022",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(517) 457-9548",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Chagrin Falls",
+            "crm": "Riverbend Manor Care Center",
+            "normalized_match": false,
+            "similarity": 0.226
+          },
+          "city": {
+            "website": "Chagrin Falls",
+            "crm": "Chagrin Falls",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44022",
+            "crm": "44022",
+            "match": true
+          },
+          "street_address": {
+            "website": "150 River St",
+            "crm": "150 River St",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 90.78
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001RJU1X4NBWC1Q0G7",
+          "field": "name",
+          "from": "Riverbend Manor Care Center",
+          "to": "Bellhaven of Chagrin Falls"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven Willow Creek",
+        "street_address": "8060 Willow Creek Ln",
+        "city": "Portage",
+        "state": "MI",
+        "zip_code": "49024",
+        "care_offerings": "Memory Support"
+      },
+      "crm_account": {
+        "account_id": "0017MN2JYAJBDS8WQZ",
+        "name": "Sunny Acres Retirement Home",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "8060 Willow Creek Lane",
+        "billing_city": "Portage",
+        "billing_state": "MI",
+        "billing_zip": "49024",
+        "care_type": "Memory Care",
+        "status": "Active",
+        "phone": "(216) 898-7925",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven Willow Creek",
+            "crm": "Sunny Acres Retirement Home",
+            "normalized_match": false,
+            "similarity": 0.204
+          },
+          "city": {
+            "website": "Portage",
+            "crm": "Portage",
+            "match": true
+          },
+          "state": {
+            "website": "MI",
+            "crm": "MI",
+            "match": true
+          },
+          "zip_code": {
+            "website": "49024",
+            "crm": "49024",
+            "match": true
+          },
+          "street_address": {
+            "website": "8060 Willow Creek Ln",
+            "crm": "8060 Willow Creek Lane",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Memory Support",
+            "crm": "Memory Care",
+            "equivalent_website_types": [
+              "Memory Care"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 90.12
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "0017MN2JYAJBDS8WQZ",
+          "field": "name",
+          "from": "Sunny Acres Retirement Home",
+          "to": "Bellhaven Willow Creek"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Ashtabula",
+        "street_address": "3156 W Prospect Rd",
+        "city": "Ashtabula",
+        "state": "OH",
+        "zip_code": "44004",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001NXP9X46CWEPSLSV",
+        "name": "Bellhaven of Ashtabula",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "PO Box 517",
+        "billing_city": "Ashtabula",
+        "billing_state": "OH",
+        "billing_zip": "44004",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(260) 440-4975",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Ashtabula",
+            "crm": "Bellhaven of Ashtabula",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Ashtabula",
+            "crm": "Ashtabula",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "44004",
+            "crm": "44004",
+            "match": true
+          },
+          "street_address": {
+            "website": "3156 W Prospect Rd",
+            "crm": "PO Box 517",
+            "normalized_match": false,
+            "similarity": 0.071
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 90.42
+      },
+      "issues": [
+        "DIFFERENT_ADDRESS"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001NXP9X46CWEPSLSV",
+          "field": "billing_street",
+          "from": "PO Box 517",
+          "to": "3156 W Prospect Rd"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CONFIDENT_MATCH",
+      "website_location": {
+        "name": "Bellhaven of Owosso",
+        "street_address": "1120 W Main St",
+        "city": "Owosso",
+        "state": "MI",
+        "zip_code": "48867",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001EGU7BMJ942ZTRE6",
+        "name": "Bellhaven of Owosso",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1120 W Main St",
+        "billing_city": "Owosso",
+        "billing_state": "MI",
+        "billing_zip": "48867",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(734) 503-1363",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Owosso",
+            "crm": "Bellhaven of Owosso",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Owosso",
+            "crm": "Owosso",
+            "match": true
+          },
+          "state": {
+            "website": "MI",
+            "crm": "MI",
+            "match": true
+          },
+          "zip_code": {
+            "website": "48867",
+            "crm": "48867",
+            "match": true
+          },
+          "street_address": {
+            "website": "1120 W Main St",
+            "crm": "1120 W Main St",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Assisted Living",
+            "crm": "Assisted Living",
+            "equivalent_website_types": [
+              "Assisted Living"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 114.0
+      },
+      "issues": [],
+      "proposed_changes": [
+        {
+          "action": "NO_CHANGE"
+        }
+      ],
+      "requires_review": false,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Portsmouth",
+        "street_address": "2222 Gallia St",
+        "city": "Portsmouth",
+        "state": "OH",
+        "zip_code": "45662",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "001CF3LDWVRGL09P4F",
+        "name": "Bellhaven of Portsmouth",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "2222 Gallia St",
+        "billing_city": "Portsmouth",
+        "billing_state": "OH",
+        "billing_zip": "45626",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(330) 431-2495",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "name",
+          "city",
+          "state",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Portsmouth",
+            "crm": "Bellhaven of Portsmouth",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "city": {
+            "website": "Portsmouth",
+            "crm": "Portsmouth",
+            "match": true
+          },
+          "state": {
+            "website": "OH",
+            "crm": "OH",
+            "match": true
+          },
+          "zip_code": {
+            "website": "45662",
+            "crm": "45626",
+            "match": false
+          },
+          "street_address": {
+            "website": "2222 Gallia St",
+            "crm": "2222 Gallia St",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 74.0
+      },
+      "issues": [
+        "DIFFERENT_ADDRESS"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001CF3LDWVRGL09P4F",
+          "field": "billing_zip",
+          "from": "45626",
+          "to": "45662"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CREATE_NEW",
+      "website_location": {
+        "name": "Bellhaven of Batavia",
+        "street_address": "2000 Hospital Dr",
+        "city": "Batavia",
+        "state": "OH",
+        "zip_code": "45103",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": null,
+      "evidence": {
+        "reason": "No sufficiently supported CRM match from name, city, ZIP, and street address.",
+        "candidate_count": 0
+      },
+      "issues": [
+        "ACCOUNT_MISSING"
+      ],
+      "proposed_changes": [
+        {
+          "action": "CREATE_ACCOUNT",
+          "new_account_placeholder": "NEW_BELLHAVEN_030",
+          "values": {
+            "name": "Bellhaven of Batavia",
+            "parent_id": "0015QAPLGS3FVYEEEM",
+            "parent_name": "Bellhaven Senior Living (Parent Account)",
+            "billing_street": "2000 Hospital Dr",
+            "billing_city": "Batavia",
+            "billing_state": "OH",
+            "billing_zip": "45103",
+            "care_type": "Skilled Nursing",
+            "status": "Active"
+          },
+          "care_type_review": null
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CREATE_NEW",
+      "website_location": {
+        "name": "Bellhaven at Union Square",
+        "street_address": "118 Union Square Dr",
+        "city": "New Albany",
+        "state": "OH",
+        "zip_code": "43054",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": null,
+      "evidence": {
+        "reason": "No sufficiently supported CRM match from name, city, ZIP, and street address.",
+        "candidate_count": 0
+      },
+      "issues": [
+        "ACCOUNT_MISSING"
+      ],
+      "proposed_changes": [
+        {
+          "action": "CREATE_ACCOUNT",
+          "new_account_placeholder": "NEW_BELLHAVEN_031",
+          "values": {
+            "name": "Bellhaven at Union Square",
+            "parent_id": "0015QAPLGS3FVYEEEM",
+            "parent_name": "Bellhaven Senior Living (Parent Account)",
+            "billing_street": "118 Union Square Dr",
+            "billing_city": "New Albany",
+            "billing_state": "OH",
+            "billing_zip": "43054",
+            "care_type": "Assisted Living",
+            "status": "Active"
+          },
+          "care_type_review": null
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CREATE_NEW",
+      "website_location": {
+        "name": "Bellhaven of Carlisle",
+        "street_address": "640 Walnut Bottom Rd",
+        "city": "Carlisle",
+        "state": "PA",
+        "zip_code": "17015",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": null,
+      "evidence": {
+        "reason": "No sufficiently supported CRM match from name, city, ZIP, and street address.",
+        "candidate_count": 0
+      },
+      "issues": [
+        "ACCOUNT_MISSING"
+      ],
+      "proposed_changes": [
+        {
+          "action": "CREATE_ACCOUNT",
+          "new_account_placeholder": "NEW_BELLHAVEN_032",
+          "values": {
+            "name": "Bellhaven of Carlisle",
+            "parent_id": "0015QAPLGS3FVYEEEM",
+            "parent_name": "Bellhaven Senior Living (Parent Account)",
+            "billing_street": "640 Walnut Bottom Rd",
+            "billing_city": "Carlisle",
+            "billing_state": "PA",
+            "billing_zip": "17015",
+            "care_type": "Skilled Nursing",
+            "status": "Active"
+          },
+          "care_type_review": null
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "CREATE_NEW",
+      "website_location": {
+        "name": "Amberly Manor",
+        "street_address": "4390 Darrow Rd",
+        "city": "Hudson",
+        "state": "OH",
+        "zip_code": "44236",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": null,
+      "evidence": {
+        "reason": "No sufficiently supported CRM match from name, city, ZIP, and street address.",
+        "candidate_count": 0
+      },
+      "issues": [
+        "ACCOUNT_MISSING"
+      ],
+      "proposed_changes": [
+        {
+          "action": "CREATE_ACCOUNT",
+          "new_account_placeholder": "NEW_BELLHAVEN_033",
+          "values": {
+            "name": "Amberly Manor",
+            "parent_id": "0015QAPLGS3FVYEEEM",
+            "parent_name": "Bellhaven Senior Living (Parent Account)",
+            "billing_street": "4390 Darrow Rd",
+            "billing_city": "Hudson",
+            "billing_state": "OH",
+            "billing_zip": "44236",
+            "care_type": "Assisted Living",
+            "status": "Active"
+          },
+          "care_type_review": null
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NEEDS_FIX",
+      "website_location": {
+        "name": "Bellhaven of Chesterton",
+        "street_address": "1250 NW Franklin Street",
+        "city": "Chesterton",
+        "state": "IN",
+        "zip_code": "46304",
+        "care_offerings": "Short-Term Rehabilitation & Nursing"
+      },
+      "crm_account": {
+        "account_id": "0013NUZQHQUEZ8DXEG",
+        "name": "Chesterton Senior Commons",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1250 Northwest Franklin St",
+        "billing_city": "Chesterton",
+        "billing_state": "IN",
+        "billing_zip": "46304",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(216) 551-3978",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "matched_fields": [
+          "city",
+          "state",
+          "zip_code",
+          "street_address",
+          "care_type",
+          "parent_id"
+        ],
+        "compared_fields": {
+          "name": {
+            "website": "Bellhaven of Chesterton",
+            "crm": "Chesterton Senior Commons",
+            "normalized_match": false,
+            "similarity": 0.417
+          },
+          "city": {
+            "website": "Chesterton",
+            "crm": "Chesterton",
+            "match": true
+          },
+          "state": {
+            "website": "IN",
+            "crm": "IN",
+            "match": true
+          },
+          "zip_code": {
+            "website": "46304",
+            "crm": "46304",
+            "match": true
+          },
+          "street_address": {
+            "website": "1250 NW Franklin Street",
+            "crm": "1250 Northwest Franklin St",
+            "normalized_match": true,
+            "similarity": 1.0
+          },
+          "care_type": {
+            "website_offerings": "Short-Term Rehabilitation & Nursing",
+            "crm": "Skilled Nursing",
+            "equivalent_website_types": [
+              "Skilled Nursing"
+            ],
+            "match": true
+          },
+          "parent_id": {
+            "expected": "0015QAPLGS3FVYEEEM",
+            "crm": "0015QAPLGS3FVYEEEM",
+            "match": true
+          }
+        },
+        "candidate_score": 96.51
+      },
+      "issues": [
+        "OUTDATED_NAME"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "0013NUZQHQUEZ8DXEG",
+          "field": "name",
+          "from": "Chesterton Senior Commons",
+          "to": "Bellhaven of Chesterton"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "DUPLICATE",
+      "website_location": {
+        "name": "Bellhaven of Owosso",
+        "street_address": "1120 W Main St",
+        "city": "Owosso",
+        "state": "MI",
+        "zip_code": "48867",
+        "care_offerings": "Assisted Living"
+      },
+      "crm_account": {
+        "account_id": "001QU150PM4Z15UA71",
+        "name": "Bellhaven of Owosso",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1120 West Main Street",
+        "billing_city": "Owosso",
+        "billing_state": "MI",
+        "billing_zip": "48867",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(330) 383-5991",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "surviving_crm_account": {
+        "account_id": "001EGU7BMJ942ZTRE6",
+        "name": "Bellhaven of Owosso",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1120 W Main St",
+        "billing_city": "Owosso",
+        "billing_state": "MI",
+        "billing_zip": "48867",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(734) 503-1363",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "same_normalized_name": true,
+        "same_city_state_zip_and_street": true,
+        "survivor_reason": "Prefer website-selected account, then correct parent and account activity."
+      },
+      "issues": [
+        "DUPLICATE_ACCOUNT"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001QU150PM4Z15UA71",
+          "field": "duplicate_of_account",
+          "from": "",
+          "to": "001EGU7BMJ942ZTRE6"
+        },
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001QU150PM4Z15UA71",
+          "field": "status",
+          "from": "Active",
+          "to": "Inactive"
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NO_LONGER_LISTED",
+      "website_location": null,
+      "crm_account": {
+        "account_id": "00116ETS45BL7DTQP7",
+        "name": "Bellhaven Care Center of Alliance",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "1785 Freshley Ave",
+        "billing_city": "Alliance",
+        "billing_state": "OH",
+        "billing_zip": "44601",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(734) 358-4538",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "reason": "CRM account belongs to Bellhaven parent but was not linked to any of the website communities.",
+        "website_communities_checked": 34
+      },
+      "issues": [
+        "NOT_ON_WEBSITE"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "00116ETS45BL7DTQP7",
+          "field": "status",
+          "from": "Active",
+          "to": "Needs Review"
+        },
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "00116ETS45BL7DTQP7",
+          "field": "note",
+          "from": "",
+          "to": "Needs review: Bellhaven CRM facility not found on current Bellhaven website listing; verify ownership and operating status before any further action."
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NO_LONGER_LISTED",
+      "website_location": null,
+      "crm_account": {
+        "account_id": "0016PVXH4B25HWR7QE",
+        "name": "Bellhaven of Coldwater",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "90 N Michigan Ave",
+        "billing_city": "Coldwater",
+        "billing_state": "MI",
+        "billing_zip": "49036",
+        "care_type": "Assisted Living",
+        "status": "Active",
+        "phone": "(814) 581-1138",
+        "lifetime_revenue": 0,
+        "outstanding_ar": 0,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "reason": "CRM account belongs to Bellhaven parent but was not linked to any of the website communities.",
+        "website_communities_checked": 34
+      },
+      "issues": [
+        "NOT_ON_WEBSITE"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "0016PVXH4B25HWR7QE",
+          "field": "status",
+          "from": "Active",
+          "to": "Needs Review"
+        },
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "0016PVXH4B25HWR7QE",
+          "field": "note",
+          "from": "",
+          "to": "Needs review: Bellhaven CRM facility not found on current Bellhaven website listing; verify ownership and operating status before any further action."
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    },
+    {
+      "category": "NO_LONGER_LISTED",
+      "website_location": null,
+      "crm_account": {
+        "account_id": "001SXSF4ELF0Z2LGDM",
+        "name": "Bellhaven of Sandusky",
+        "parent_id": "0015QAPLGS3FVYEEEM",
+        "parent_name": "Bellhaven Senior Living (Parent Account)",
+        "billing_street": "2715 Columbus Ave",
+        "billing_city": "Sandusky",
+        "billing_state": "OH",
+        "billing_zip": "44870",
+        "care_type": "Skilled Nursing",
+        "status": "Active",
+        "phone": "(260) 212-1086",
+        "lifetime_revenue": 130000,
+        "outstanding_ar": 5200,
+        "chow_current_account": "",
+        "duplicate_of_account": "",
+        "note": "",
+        "created_by_candidate": false,
+        "updated_at": "2026-11-10 17:23:59Z"
+      },
+      "evidence": {
+        "reason": "CRM account belongs to Bellhaven parent but was not linked to any of the website communities.",
+        "website_communities_checked": 34
+      },
+      "issues": [
+        "NOT_ON_WEBSITE"
+      ],
+      "proposed_changes": [
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001SXSF4ELF0Z2LGDM",
+          "field": "status",
+          "from": "Active",
+          "to": "Needs Review"
+        },
+        {
+          "action": "UPDATE_FIELD",
+          "account_id": "001SXSF4ELF0Z2LGDM",
+          "field": "note",
+          "from": "",
+          "to": "Needs review: Bellhaven CRM facility not found on current Bellhaven website listing; verify ownership and operating status before any further action."
+        }
+      ],
+      "requires_review": true,
+      "chow": false
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "site:722c2c33a283ca3faaad6571": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Maplewood",
+    "decided_at": "2026-11-10T18:24:30+00:00",
+    "result": null
+  },
+  "site:653b81142fb221cbd1f342cc": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of New Carlisle",
+    "decided_at": "2026-11-10T18:28:28+00:00",
+    "result": null
+  },
+  "site:2a6c50a00941a53da9777a81": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Wooster",
+    "decided_at": "2026-11-10T18:29:29+00:00",
+    "result": null
+  },
+  "site:81a1b86a049126ae339d199c": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven Terrace of Akron",
+    "decided_at": "2026-11-10T18:30:25+00:00",
+    "result": null
+  },
+  "site:ebbb5f2f0f9c21c977669ae4": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Saline",
+    "decided_at": "2026-11-10T18:31:38+00:00",
+    "result": null
+  },
+  "site:1e438c604cccafca3da515c0": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Goshen",
+    "decided_at": "2026-11-10T18:32:13+00:00",
+    "result": null
+  },
+  "site:37c92911289c2672cc46b7df": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Meadville",
+    "decided_at": "2026-11-10T18:32:22+00:00",
+    "result": null
+  },
+  "site:81fd70538c80066919b8efdc": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Defiance",
+    "decided_at": "2026-11-10T18:32:25+00:00",
+    "result": null
+  },
+  "site:695f10f467cf07579573742c": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven Woods of Toledo",
+    "decided_at": "2026-11-10T18:32:30+00:00",
+    "result": null
+  },
+  "site:b5a27444f4187a947515fe5c": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Marion",
+    "decided_at": "2026-11-10T18:32:36+00:00",
+    "result": null
+  },
+  "site:6baa1c977590af3ec59eb8b0": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Kalamazoo",
+    "decided_at": "2026-11-10T18:32:44+00:00",
+    "result": null
+  },
+  "site:2f99779fce1b005b5647bbac": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven Court of Altoona",
+    "decided_at": "2026-11-10T18:32:51+00:00",
+    "result": null
+  },
+  "site:d5d313386505c399fcb5ab55": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven at Sycamore Ridge",
+    "decided_at": "2026-11-10T18:36:17+00:00",
+    "result": {
+      "patched_account_id": "00191H7JR16471SZ34"
+    }
+  },
+  "site:a354071cee404bfa5d21c738": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "The Arbors at Bellhaven - Dayton",
+    "decided_at": "2026-11-10T18:36:39+00:00",
+    "result": {
+      "patched_account_id": "0010KJFP601YNTZVDA"
+    }
+  },
+  "site:cc8dd301d3e933cb00eefd08": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven Healthcare Centre of Ashland",
+    "decided_at": "2026-11-10T18:37:04+00:00",
+    "result": {
+      "patched_account_id": "001RJ0D7Z5MAZN5HX5"
+    }
+  },
+  "site:d995aa7d6b0ef304ef8e8ef5": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Port Clinton",
+    "decided_at": "2026-11-10T18:37:10+00:00",
+    "result": null
+  },
+  "site:b604e18862dab977db8dc4db": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven Shores of Erie",
+    "decided_at": "2026-11-10T18:37:16+00:00",
+    "result": null
+  },
+  "site:025a9b31973e53b3ee6bca2e": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven Gardens of Monroe",
+    "decided_at": "2026-11-10T18:39:41+00:00",
+    "result": null
+  },
+  "site:915440a82ff53936f9658953": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Tiffin",
+    "decided_at": "2026-11-10T18:43:11+00:00",
+    "result": {
+      "new_account_id": "001F52FD2F7A43BC35",
+      "linked_old_account_id": "001U6RW32TY0WSXZZB"
+    }
+  },
+  "site:e2e54bf4ef2a251bd78973ef": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Marietta",
+    "decided_at": "2026-11-10T18:44:24+00:00",
+    "result": {
+      "new_account_id": "0016AFA769C74782D5",
+      "linked_old_account_id": "001A34WFSUYHCRBLFT"
+    }
+  },
+  "site:b11db397431d31928c91b094": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven Crossings of Lima",
+    "decided_at": "2026-11-10T18:45:27+00:00",
+    "result": {
+      "patched_account_id": "001LGFPBJY4N9MB6KL"
+    }
+  },
+  "site:00e0b04888302e2bff9ae2c5": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Zanesville",
+    "decided_at": "2026-11-10T18:46:34+00:00",
+    "result": {
+      "patched_account_id": "001H1JMVZWP46D5VUF"
+    }
+  },
+  "site:5caf11733f67ec64cb175122": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Chagrin Falls",
+    "decided_at": "2026-11-10T18:47:29+00:00",
+    "result": {
+      "patched_account_id": "001RJU1X4NBWC1Q0G7"
+    }
+  },
+  "site:5ccac55dea18071061d671a6": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven Willow Creek",
+    "decided_at": "2026-11-10T18:48:16+00:00",
+    "result": {
+      "patched_account_id": "0017MN2JYAJBDS8WQZ"
+    }
+  },
+  "site:a410fe0c0ef38d78f8117dec": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Ashtabula",
+    "decided_at": "2026-11-10T18:49:35+00:00",
+    "result": {
+      "patched_account_id": "001NXP9X46CWEPSLSV"
+    }
+  },
+  "site:cf6ba55c1697076b551cc239": {
+    "status": "approved",
+    "category": "CONFIDENT_MATCH",
+    "facility": "Bellhaven of Owosso",
+    "decided_at": "2026-11-10T18:50:26+00:00",
+    "result": null
+  },
+  "site:939dc13308c1b00aeb27f49b": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Portsmouth",
+    "decided_at": "2026-11-10T18:51:15+00:00",
+    "result": {
+      "patched_account_id": "001CF3LDWVRGL09P4F"
+    }
+  },
+  "site:858962bb28be81e83be924e6": {
+    "status": "approved",
+    "category": "CREATE_NEW",
+    "facility": "Bellhaven of Batavia",
+    "decided_at": "2026-11-10T18:53:29+00:00",
+    "result": {
+      "new_account_id": "001D136F8B8DC8977C"
+    }
+  },
+  "site:cbe0a8375bad7b406968db46": {
+    "status": "approved",
+    "category": "CREATE_NEW",
+    "facility": "Bellhaven at Union Square",
+    "decided_at": "2026-11-10T18:57:04+00:00",
+    "result": {
+      "new_account_id": "001B9ED89C16FAF004"
+    }
+  },
+  "site:350cbea1a89552a7bc0b1290": {
+    "status": "approved",
+    "category": "CREATE_NEW",
+    "facility": "Bellhaven of Carlisle",
+    "decided_at": "2026-11-10T18:57:41+00:00",
+    "result": {
+      "new_account_id": "00145C188D8462ACD3"
+    }
+  },
+  "site:c62fae8add4db843507de098": {
+    "status": "approved",
+    "category": "CREATE_NEW",
+    "facility": "Amberly Manor",
+    "decided_at": "2026-11-10T18:58:07+00:00",
+    "result": {
+      "new_account_id": "00120BF801E2D1D5B6"
+    }
+  },
+  "site:a37071761bc8f9183a72b346": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Chesterton",
+    "decided_at": "2026-11-10T18:58:31+00:00",
+    "result": {
+      "patched_account_id": "0013NUZQHQUEZ8DXEG"
+    }
+  },
+  "account:DUPLICATE:001QU150PM4Z15UA71": {
+    "status": "approved",
+    "category": "DUPLICATE",
+    "facility": "Bellhaven of Owosso",
+    "decided_at": "2026-11-10T18:58:49+00:00",
+    "result": {
+      "patched_account_id": "001QU150PM4Z15UA71"
+    }
+  },
+  "account:NO_LONGER_LISTED:00116ETS45BL7DTQP7": {
+    "status": "approved",
+    "category": "NO_LONGER_LISTED",
+    "facility": "Bellhaven Care Center of Alliance",
+    "decided_at": "2026-11-10T18:59:10+00:00",
+    "result": {
+      "patched_account_id": "00116ETS45BL7DTQP7"
+    }
+  },
+  "account:NO_LONGER_LISTED:0016PVXH4B25HWR7QE": {
+    "status": "approved",
+    "category": "NO_LONGER_LISTED",
+    "facility": "Bellhaven of Coldwater",
+    "decided_at": "2026-11-10T18:59:30+00:00",
+    "result": {
+      "patched_account_id": "0016PVXH4B25HWR7QE"
+    }
+  },
+  "account:NO_LONGER_LISTED:001SXSF4ELF0Z2LGDM": {
+    "status": "approved",
+    "category": "NO_LONGER_LISTED",
+    "facility": "Bellhaven of Sandusky",
+    "decided_at": "2026-11-10T18:59:46+00:00",
+    "result": {
+      "patched_account_id": "001SXSF4ELF0Z2LGDM"
+    }
+  },
+  "site:b11d63353f66d011400d70c8": {
+    "status": "approved",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven Rehabilitation & Nursing of Grove City",
+    "decided_at": "2026-11-10T20:16:31+00:00",
+    "result": {
+      "patched_account_id": "001TZCSTBZFM6K5BGN"
+    }
+  },
+  "site:5a8f154caf43b97366a770a4": {
+    "status": "rejected",
+    "category": "NEEDS_FIX",
+    "facility": "Bellhaven of Kettering",
+    "decided_at": "2026-11-10T20:16:51+00:00"
+  }
+}
