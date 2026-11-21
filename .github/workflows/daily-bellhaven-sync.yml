@@ -1,0 +1,52 @@
+# Store the CRM token as the GitHub Actions secret BELLHAVEN_TOKEN.
+# The token is never written directly in this workflow file or committed to the repository.
+name: Daily Bellhaven Sync
+
+on:
+  schedule:
+    # GitHub Actions cron uses UTC. 14:00 UTC is 7 AM MST / 8 AM MDT.
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: python3 -m pip install requests beautifulsoup4
+
+      - name: Scrape Bellhaven communities
+        run: python3 scraper.py
+
+      - name: Fetch CRM accounts
+        env:
+          BELLHAVEN_TOKEN: ${{ secrets.BELLHAVEN_TOKEN }}
+        shell: bash
+        run: |
+          if [ -z "$BELLHAVEN_TOKEN" ]; then
+            echo 'Missing required secret: BELLHAVEN_TOKEN' >&2
+            exit 1
+          fi
+          # fetch_crm.py uses getpass; on an unattended runner it reads stdin.
+          printf '%s\n' "$BELLHAVEN_TOKEN" | python3 fetch_crm.py
+
+      - name: Generate proposals (no CRM writes)
+        run: python3 match.py
+
+      - name: Save proposals for human review
+        uses: actions/upload-artifact@v4
+        with:
+          name: bellhaven-proposals
+          path: proposals.json
+          if-no-files-found: error
